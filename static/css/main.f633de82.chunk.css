@@ -149,7 +149,6 @@
 .inputFilter > div > fieldset {
     border-color: unset;
     border-radius: 5px;
-    background-color: #fff;
 }
 .inputFilter > div > fieldset > legend {
   width: 0.01px !important;
