@@ -144,7 +144,9 @@
 }
 .inputFilter > div > input {
     color: #000 !important;
-  padding: 10.5px 14px;
+    padding: 10.5px 14px;
+    background-color: #fff;
+    border-radius: 5px;
 }
 .inputFilter > div > fieldset {
     border-color: unset;
