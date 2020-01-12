@@ -126,14 +126,23 @@
 .table {
   width: 100%;
 }
+@media (max-width: 500px) {
+    .table {
+      padding-top: 40px;
+    }
+  }
 .inputFilter {
-
   position: fixed !important;
   top: 8px;
   z-index: 999;
   align-self: center;
   padding-bottom: 50px !important;
 }
+@media (max-width: 500px) {
+    .inputFilter {
+      top:unset;
+    }
+  }
 .inputFilter > label {
   border-radius: 5px;
   padding: 0 3px;
